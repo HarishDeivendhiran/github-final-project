@@ -1,0 +1,16 @@
+
+{
+  "name": "simple-interest-calculator",
+  "version": "1.0.0",
+  "description": "Simple Interest Calculator with CI/CD automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js index.test.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  }
+}
